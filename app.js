@@ -35,7 +35,6 @@ app.get('/compose', (req, res)=>{
 
 app.get('/posts/:postName', (req, res)=>{
   const reqPost = _.lowerCase(req.params.postName);
-
   posts.forEach((post)=>{
     if(reqPost === _.lowerCase(post.title)){
       res.render('post', {postTitle: post.title, postBody: post.body});
