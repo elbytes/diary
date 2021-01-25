@@ -38,3 +38,14 @@ html {
 	font-size: 12px;
   color: #fff;
 }
+
+.post-border{
+  border: #1abc9c;
+  border-width: 0.1em;
+  border-style: solid;
+  padding: 0.8rem;
+  margin: 1rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 10px;
+}
