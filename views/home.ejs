@@ -7,7 +7,7 @@
 <% posts.forEach((post)=>{ %>
     <div class="post-border">
     <h3><%= post.title; %></h3>
-    <p><%= post.body.substring(0,200); %> ...<a href="/posts/<%= post.title %>">Read More >></a></p>
+    <p><%= post.body.substring(0,200); %> ...<a href="/posts/<%= post._id %>"> read the rest</a></p>
 </div>
 <%});%>
 
